@@ -1,0 +1,15 @@
+[{:media/id 1
+  :media/description "Media 1 descr"
+  :media/filename "file_name.jpg"
+  :media/size 100
+  :media/title "Media 1 title"}
+ {:media/id          2
+  :media/filename    "file_name2.jpg"
+  :media/description "Media 2 descr"
+  :media/size        102
+  :media/title       "Media 2 title"}
+ {:media/id          3
+  :media/filename    "file_name3.jpg"
+  :media/description "Media 3 descr"
+  :media/size        103
+  :media/title       "Media 3 title"}]

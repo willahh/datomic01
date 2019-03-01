@@ -1,0 +1,4 @@
+[{:company/id 1 :company/name "Apple"}
+ {:company/id 2 :company/name "Microsoft"}
+ {:company/id 3 :company/name "Google"}
+ {:company/id 4 :company/name "Amazon"}]
