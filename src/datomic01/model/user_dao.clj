@@ -15,22 +15,36 @@
                  where)]
     (d/q q db user-model/fields)))
 
-;; Examples
-(d/transact database/conn [{:user/id 1 :user/group 1}])
-(find-fields-where db user-model/fields '[:where [?e :user/id]])
-(find-fields-where db '[*] '[:where [?e :user/id]])
-(find-fields-where db '[*] '[:where [?e :group/id]])
-(find-fields-where db '[:group/id :group/name] '[:where [?e :group/id 1]])
 
-(d/q '[:find ?group
-       :where
-       ;; [?user :user/id]
-       
-       [?group :group/id 1]
-       ;; [?group :user/group]
-       
-       ]
-     db)
+;; Examples
+
+(find-fields-where (database/get-db) user-model/fields '[:where [?e :user/id]])
+(find-fields-where (database/get-db) '[*] '[:where [?e :user/id]])
+(find-fields-where (database/get-db) '[*] '[:where [?e :group/id]])
+(find-fields-where (database/get-db) '[:group/id :group/name] '[:where [?e :group/id 1]])
+(find-fields-where (database/get-db)
+                   '[*]
+                   '[:where
+                     [?e :user/id]
+                     [?e :user/group 3]])
+
+(comment
+  ;; Todo add limit
+  (d/q '[:find [[pull ?e [:user/id]]] 
+         :where [?e :user/id]]
+       (database/get-db))
+
+  (d/q '[:find (pull ?e [:user/id])
+         :where [?e :user/id]]
+       (database/get-db))
+
+  (d/q '[:find (pull ?e (:user/id))
+         :where [?e :user/id]]
+       (database/get-db))
+
+  (d/q '[:find (pull ?e [:user/id (:user/id :limit 2)])
+         :where [?e :user/id]]
+       (database/get-db)))
 
 
 
