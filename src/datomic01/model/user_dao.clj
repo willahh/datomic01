@@ -17,8 +17,9 @@
 
 
 ;; Examples
-
 (find-fields-where (database/get-db) user-model/fields '[:where [?e :user/id]])
+(find-fields-where (database/get-db) '[*] '[:where [?e :keyword/id]])
+(find-fields-where (database/get-db) '[*] '[:where [?e :media/id]])
 (find-fields-where (database/get-db) '[*] '[:where [?e :user/id]])
 (find-fields-where (database/get-db) '[*] '[:where [?e :group/id]])
 (find-fields-where (database/get-db) '[:group/id :group/name] '[:where [?e :group/id 1]])
@@ -27,6 +28,39 @@
                    '[:where
                      [?e :user/id]
                      [?e :user/group 3]])
+(find-fields-where (database/get-db)
+                   '[*]
+                   '[:where
+                     [?e :media/id]
+                     [?e :media/keyword 1]])
+(find-fields-where (database/get-db)
+                   user-model/fields
+                   '[:where
+                     [?e :user/id]
+                     [?e :user/active true]])
+(find-fields-where (database/get-db)
+                   user-model/fields
+                   '[:where
+                     [?e :user/id]
+                     [?e :user/first-name "User 4"]])
+
+;; Todo LIKE
+(d/q '[:find ?entity ?name ?tx ?score
+       :in $ ?search
+       :where
+       ;; [?e :user/first-name ?firstname]
+       [(fulltext $ :user/first-name ?search) [[?entity ?name ?tx ?score]]]
+       ]
+     (database/get-db) "ll")
+
+(d/q '[:find ?firstname
+       :in $ ?search
+       :where
+       ;; [?e :user/id]
+       [?e :user/first-name ?firstname]
+       
+       ]
+     (database/get-db) "ll")
 
 (comment
   ;; Todo add limit

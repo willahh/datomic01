@@ -1,0 +1,36 @@
+[{:db/ident       :media/id
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db/unique      :db.unique/identity
+  :db/doc         "The id of the media"}
+
+ {:db/ident       :media/description
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext    true
+  :db/index       true
+  :db/doc         "The description of the media"}
+
+ {:db/ident       :media/filename
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext    true
+  :db/index       true
+  :db/doc         "The filename of the media"}
+
+ {:db/ident       :media/size
+  :db/valueType   :db.type/long
+  :db/cardinality :db.cardinality/one
+  :db/doc         "The size of the media"}
+
+ {:db/ident       :media/title
+  :db/valueType   :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext    true
+  :db/index       true
+  :db/doc         "The title of the media"}
+
+ {:db/ident       :media/keyword
+  :db/valueType   :db.type/ref
+  :db/cardinality :db.cardinality/many
+  :db/doc         "Keyword references of the media"}]
