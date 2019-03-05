@@ -3,9 +3,42 @@
             [datomic01.database :as database]
             [datomic01.model.user-model :as user-model]))
 
+(defn find-list
+  ([]
+   (find-list '[:where [?e :user/id]]))
+  ([where]
+   (database/find-where user-model/fields where))
+  ([where & {:keys [offset limit order asc]}]
+   (database/find-where user-model/fields where
+                        :offset offset
+                        :limit limit
+                        :order order
+                        :asc asc)))
+
+(find-list)
+(find-list '[:where [?e :user/id]])
+(find-list '[:where [?e :user/id]] :offset 1 :limit 1)
+(find-list '[:where [?e :user/id]] :offset 1)
+(find-list '[:where [?e :user/id]] :limit 1)
+(find-list '[:where [?e :user/id]]
+           :order :user/first-name
+           :asc true)
+(find-list '[:where [?e :user/id]]
+           :order :user/first-name
+           :asc false)
+(find-list '[:where [?e :user/id]]
+           :order :user/first-name
+           :asc false
+           :limit 1)
+(find-list '[:where [?e :user/id]]
+           :order :user/first-name
+           :asc false
+           :offset 2)
+
 ;; Examples
 (database/find-where user-model/fields '[:where [?e :user/id]])
 (database/find-where user-model/fields '[:where [?e :user/id]] :limit 2 :offset 2)
+(database/find-where user-model/fields '[:where [?e :user/id]] :limit -1 :offset -1)
 (database/find-where '[*] '[:where [?e :keyword/id]] :limit 2)
 (database/find-where '[*] '[:where [?e :media/id]])
 (database/find-where '[*] '[:where [?e :user/id]])
