@@ -6,9 +6,12 @@ http://subhasingh.com/blog/How-to-Setup-Datomic-Free/
 
 
 ## Usage
-from datomic-free dir : 
-bin/transactor config/samples/free-transactor-template.properties
+https://docs.datomic.com/on-prem/dev-setup.html
 
+``sh
+cd datomic-pro-1.0.6222/bin
+./transactor /Users/user/bin/datomic-pro-1.0.6222/config/samples/dev-transactor-template.properties
+``
 
 
 ## License

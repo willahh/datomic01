@@ -1,196 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ddce6fe-7950-460e-8f5a-dce0be37e0d2" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3ddce6fe-7950-460e-8f5a-dce0be37e0d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_testit_0_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__net_cgrand_macrovich_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datomic01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datomic01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/datomic01/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/database.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/datomic01/database.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/model/user_dao.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/datomic01/model/user_dao.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/model/user_schema.edn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/datomic01/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/datomic01/core_test.clj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-849410549">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="clj" value="3" />
-          <entry key="edn" value="7" />
-          <entry key="md" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Clojure" value="3" />
-          <entry key="EDN" value="7" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="clj" value="225" />
-          <entry key="edn" value="201" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Clojure" value="225" />
-          <entry key="EDN" value="201" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datomic01/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/company.edn">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/group.edn">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/keyword.edn">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/media.edn">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/profile.edn">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/data/user.edn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/user_schema.edn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/resources/data/user.edn" />
-        <option value="$PROJECT_DIR$/resources/user_schema.edn" />
-        <option value="$PROJECT_DIR$/src/datomic01/core.clj" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="datomic01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datomic01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datomic01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datomic01" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datomic01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datomic01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datomic01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datomic01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datomic01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datomic01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datomic01" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1lr7HcW8p1VF3c60GlkvVBLQzrD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551445176051" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="ReplState" timestamp="1551445177031">{:repl-history {:ide [], :local [{:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n         :where\n         [?e :person/email]]\n       db))&quot;, :offset 96, :ns &quot;datomic01.core&quot;} {:command &quot;(d/q '[:find ?e\n       :where\n       [?e :suburb/name]]\n     db)&quot;, :offset 64, :ns &quot;datomic01.core&quot;} {:command &quot;(d/q '[:find ?e\n       :where\n       [?e :suburb/name]] db)&quot;, :offset 59, :ns &quot;datomic01.core&quot;} {:command &quot;(def db (d/db conn))&quot;, :offset 20, :ns &quot;datomic01.core&quot;} {:command &quot;(def schema\n  [{:db/id #db/id[:db.part/db]\n    :db/ident :suburb/name\n    :db/valueType :db.type/string\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the suburb\&quot;\n    :db.install/_attribute :db.part/db}\n   \n   {:db/id #db/id[:db.part/db]\n    :db/ident :suburb/city\n    :db/valueType :db.type/string\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the city the suburb is located in\&quot;\n    :db.install/_attribute :db.part/db}\n   \n   {:db/id #db/id[:db.part/db]\n    :db/ident :city/province\n    :db/valueType :db.type/ref\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the province in which the city is located\&quot;\n    :db.install/_attribute :db.part/db}\n\n   {:db/id #db/id[:db.part/db]\n    :db/ident :province/name\n    :db/valueType :db.type/string\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the province in which the city is located\&quot;\n    :db.install/_attribute :db.part/db}])&quot;, :offset 944, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn schema)&quot;, :offset 24, :ns &quot;datomic01.core&quot;} {:command &quot;(def add-suburbs\n  [{:db/id #db/id [:db.part/suburb -1000076]   :suburb/name \&quot;Bellville\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:db/id #db/id [:db.part/suburb -1000089] :suburb/name \&quot;Athlone\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:db/id (d/tempid :db.part/suburb) :suburb/name \&quot;Rondebosch\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}])&quot;, :offset 390, :ns &quot;datomic01.core&quot;} {:command &quot;(def add-suburbs\n  [{:suburb/name \&quot;Bellville\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Athlone\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Rondebosch\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name} \&quot;Western Cape\&quot;])&quot;, :offset 272, :ns &quot;datomic01.core&quot;} {:command &quot;(def add-suburbs\n  [{:suburb/name \&quot;Bellville\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Athlone\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Rondebosch\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}])&quot;, :offset 272, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn add-suburbs)&quot;, :offset 29, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n        :where\n        [?e :suburb/name]] db))&quot;, :offset 86, :ns &quot;datomic01.core&quot;} {:command &quot;(slurp \&quot;resources/data/user.edn\&quot;)&quot;, :offset 33, :ns &quot;datomic01.core&quot;} {:command &quot;(edn/read-string (slurp \&quot;resources/data/user.edn\&quot;))(edn/read-string (slurp \&quot;resources/user_schema.edn\&quot;))&quot;, :offset 104, :ns &quot;datomic01.core&quot;} {:command &quot;(slurp \&quot;resources/user_schema.edn\&quot;)&quot;, :offset 35, :ns &quot;datomic01.core&quot;} {:command &quot;]&quot;, :offset 1} {:command &quot;(edn/read-string (slurp \&quot;resources/data/user.edn\&quot;))&quot;, :offset 51, :ns &quot;datomic01.core&quot;} {:command &quot;(ns datomic01.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]))&quot;, :offset 86, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn (edn/read-string (slurp \&quot;resources/user_schema.edn\&quot;)))&quot;, :offset 71, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn (edn/read-string (slurp \&quot;resources/data/user.edn\&quot;)))&quot;, :offset 69, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n        :where\n        [?e :user/first-name]] db))&quot;, :offset 90, :ns &quot;datomic01.core&quot;}], :remote []}}</component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="ReplState" timestamp="1608347150682">{:repl-history {:ide [], :local [{:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n         :where\n         [?e :person/email]]\n       db))&quot;, :offset 96, :ns &quot;datomic01.core&quot;} {:command &quot;(d/q '[:find ?e\n       :where\n       [?e :suburb/name]]\n     db)&quot;, :offset 64, :ns &quot;datomic01.core&quot;} {:command &quot;(d/q '[:find ?e\n       :where\n       [?e :suburb/name]] db)&quot;, :offset 59, :ns &quot;datomic01.core&quot;} {:command &quot;(def schema\n  [{:db/id #db/id[:db.part/db]\n    :db/ident :suburb/name\n    :db/valueType :db.type/string\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the suburb\&quot;\n    :db.install/_attribute :db.part/db}\n   \n   {:db/id #db/id[:db.part/db]\n    :db/ident :suburb/city\n    :db/valueType :db.type/string\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the city the suburb is located in\&quot;\n    :db.install/_attribute :db.part/db}\n   \n   {:db/id #db/id[:db.part/db]\n    :db/ident :city/province\n    :db/valueType :db.type/ref\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the province in which the city is located\&quot;\n    :db.install/_attribute :db.part/db}\n\n   {:db/id #db/id[:db.part/db]\n    :db/ident :province/name\n    :db/valueType :db.type/string\n    :db/cardinality :db.cardinality/one\n    :db/doc \&quot;The name of the province in which the city is located\&quot;\n    :db.install/_attribute :db.part/db}])&quot;, :offset 944, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn schema)&quot;, :offset 24, :ns &quot;datomic01.core&quot;} {:command &quot;(def add-suburbs\n  [{:db/id #db/id [:db.part/suburb -1000076]   :suburb/name \&quot;Bellville\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:db/id #db/id [:db.part/suburb -1000089] :suburb/name \&quot;Athlone\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:db/id (d/tempid :db.part/suburb) :suburb/name \&quot;Rondebosch\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}])&quot;, :offset 390, :ns &quot;datomic01.core&quot;} {:command &quot;(def add-suburbs\n  [{:suburb/name \&quot;Bellville\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Athlone\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Rondebosch\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name} \&quot;Western Cape\&quot;])&quot;, :offset 272, :ns &quot;datomic01.core&quot;} {:command &quot;(def add-suburbs\n  [{:suburb/name \&quot;Bellville\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Athlone\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}\n   {:suburb/name \&quot;Rondebosch\&quot; :suburb/city \&quot;Cape Town\&quot; :province/name \&quot;Western Cape\&quot;}])&quot;, :offset 272, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn add-suburbs)&quot;, :offset 29, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n        :where\n        [?e :suburb/name]] db))&quot;, :offset 86, :ns &quot;datomic01.core&quot;} {:command &quot;(slurp \&quot;resources/data/user.edn\&quot;)&quot;, :offset 33, :ns &quot;datomic01.core&quot;} {:command &quot;(edn/read-string (slurp \&quot;resources/data/user.edn\&quot;))(edn/read-string (slurp \&quot;resources/user_schema.edn\&quot;))&quot;, :offset 104, :ns &quot;datomic01.core&quot;} {:command &quot;(slurp \&quot;resources/user_schema.edn\&quot;)&quot;, :offset 35, :ns &quot;datomic01.core&quot;} {:command &quot;]&quot;, :offset 1} {:command &quot;(edn/read-string (slurp \&quot;resources/data/user.edn\&quot;))&quot;, :offset 51, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn (edn/read-string (slurp \&quot;resources/user_schema.edn\&quot;)))&quot;, :offset 71, :ns &quot;datomic01.core&quot;} {:command &quot;(d/transact conn (edn/read-string (slurp \&quot;resources/data/user.edn\&quot;)))&quot;, :offset 69, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n        :where\n        [?e :user/first-name]] db))&quot;, :offset 90, :ns &quot;datomic01.core&quot;} {:command &quot;(ns datomic01.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]))&quot;, :offset 86, :ns &quot;datomic01.core&quot;} {:command &quot;(def uri \&quot;datomic:free://localhost:4334/example\&quot;)&quot;, :offset 49, :ns &quot;datomic01.core&quot;} {:command &quot;(d/create-database uri)&quot;, :offset 23, :ns &quot;datomic01.core&quot;} {:command &quot;(def conn (d/connect uri))&quot;, :offset 26, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/db conn)]\n  (d/q '[:find ?e\n         :where\n         [?e :user/first-name]] db))&quot;, :offset 92, :ns &quot;datomic01.core&quot;} {:command &quot;(def db (d/db conn))&quot;, :offset 20, :ns &quot;datomic01.core&quot;} {:command &quot;(def user-1 (d/entity db 17592186045425))&quot;, :offset 41, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/entity-db user-1)]\n  (d/q '[:find ?e\n         :where\n         [?e :user/id]]\n       db))&quot;, :offset 100, :ns &quot;datomic01.core&quot;} {:command &quot;(edn/read-string (slurp \&quot;resources/user_schema.edn\&quot;))&quot;, :offset 53, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/db conn)]\n    (d/q '[:find ?e\n           :where\n           [?e :user/first-name]] db))&quot;, :offset 98, :ns &quot;datomic01.core&quot;} {:command &quot;(d/q '[:find ?e\n         :where\n         [?e :user/first-name]] db)&quot;, :offset 67, :ns &quot;datomic01.core&quot;} {:command &quot;(let [db (d/entity-db user-1)]\n    (d/q '[:find ?e\n           :where\n           [?e :user/id]]\n         db))&quot;, :offset 108, :ns &quot;datomic01.core&quot;} {:command &quot;(find-list)&quot;, :offset 11, :ns &quot;datomic01.model.user-dao&quot;} {:command &quot;(ns datomic01.database\n  (:require [datomic.api :as d]))&quot;, :offset 56, :ns &quot;datomic01.core&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
-      <module name="" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
-      <setting name="replType" value="0" />
-      <module name="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="nrepl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
@@ -202,9 +75,11 @@
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -217,87 +92,5 @@
       <updated>1551443217113</updated>
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1556791" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.19849056" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.19471698" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info active="true" anchor="right" id="REPL" side_tool="true" visible="true" weight="0.32962668" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Leiningen" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/data/media.edn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/keyword.edn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/group.edn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/company.edn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/user_schema.edn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/user.edn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/data/profile.edn">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datomic01/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
