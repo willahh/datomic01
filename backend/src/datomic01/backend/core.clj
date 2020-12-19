@@ -1,4 +1,4 @@
-(ns datomic01.core
+(ns datomic01.backend.core
   (:require [datomic.api :as d]
             [clojure.edn :as edn]))
 
@@ -28,8 +28,10 @@
   (d/transact conn [{:media/id 1 :media/keyword 1}]))
 
 (comment
-  (def db (d/db conn))
-  (def user-1 (d/entity db 17592186045425))
+  (do
+    (connect)
+    (def db (d/db conn))
+    (def user-1 (d/entity db 17592186045425)))
 
   (d/q '[:find ?e
          :where

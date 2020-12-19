@@ -1,4 +1,4 @@
-(ns datomic01.model.user-model)
+(ns datomic01.backend.model.user-model)
 
 (def id :user/id)
 (def first-name :user/first-name)

@@ -6,4 +6,4 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [com.datomic/datomic-free "0.9.5544"]
                  [metosin/testit "0.4.0"]]
-  :repl-options {:init-ns datomic01.core})
+  :repl-options {:init-ns datomic01.backend.core})

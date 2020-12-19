@@ -1,4 +1,4 @@
-(ns datomic01.database
+(ns datomic01.backend.database
   (:require [datomic.api :as d]))
 
 (def uri "datomic:free://localhost:4334/example")

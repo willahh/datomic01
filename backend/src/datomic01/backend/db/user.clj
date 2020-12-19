@@ -1,7 +1,7 @@
-(ns datomic01.model.user-dao
+(ns datomic01.backend.db.user
   (:require [datomic.api :as d]
-            [datomic01.database :as database]
-            [datomic01.model.user-model :as user-model]))
+            [datomic01.backend.database :as database]
+            [datomic01.backend.model.user-model :as user-model]))
 
 (defn find-list
   ([]
@@ -14,7 +14,26 @@
                         :limit limit
                         :order order
                         :asc asc)))
+
+(defprotocol UserProtocol
+  (find-user-by-id
+    [repo user-id]
+    "Récupère un utilisateur par user-id"))
+
+(defrecord UserRepository
+  [pool]
+  UserProtocol
+  (find-user-by-id
+    [_ user-id]
+    (find-list '[:where [?e :user/id]])))
+
+
+
 (comment
+
+  (def user-repo (->UserRepository nil))
+  (find-user-by-id user-repo 1)
+
   (find-list)
   (find-list '[:where [?e :user/id]])
   (find-list '[:where [?e :user/id]] :offset 1 :limit 1)
