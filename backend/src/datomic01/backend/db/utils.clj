@@ -1,10 +1,10 @@
-(ns datomic01.backend.database
-  (:require [datomic.api :as d]))
+(ns datomic01.backend.db.utils
+  (:require [datomic.api :as d]
+            [datomic01.backend.db.datomic :as datomic]
+            [mount.core :as mount]))
 
-(def uri "datomic:free://localhost:4334/example")
-(def conn (d/connect uri))
 (defn get-db []
-  (d/db conn))
+  (d/db datomic/conn))
 
 (defn query [find in where]
   (reduce #(apply conj %1 %2)

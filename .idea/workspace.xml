@@ -2,69 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1ef57c-5aeb-480c-bca5-7c4e7109db4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/datomic01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/api/user.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/service.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/deps.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_datomic_datomic_free_0_9_5544.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_datomic_datomic_lucene_core_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_guava_guava_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_h2database_h2_1_3_171.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_beanutils_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_collections_3_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__io_netty_netty_all_4_0_39_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_testit_0_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__net_cgrand_macrovich_0_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_activemq_artemis_commons_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_activemq_artemis_core_client_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_geronimo_specs_geronimo_json_1_0_spec_1_0_alpha_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_johnzon_johnzon_core_0_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_tomcat_tomcat_jdbc_7_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_tomcat_tomcat_juli_7_0_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_cli_0_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_janino_commons_compiler_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_janino_commons_compiler_jdk_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_fressian_fressian_0_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_jcl_over_slf4j_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_jul_to_slf4j_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_log4j_over_slf4j_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_slf4j_nop_1_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datomic01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/intro.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/company.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/company.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/group.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/group.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/keyword.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/keyword.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/media.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/media.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/profile.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/profile.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/user.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/user.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/group_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/group_schema.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/keyword_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/keyword_schema.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/media_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/media_schema.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/user_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/user_schema.edn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datomic01/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/core.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datomic01/database.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/database.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datomic01/model/user_dao.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/db/user.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datomic01/model/user_model.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/model/user_model.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/datomic01/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/datomic01/core_test.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__mount_0_1_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/dev/user.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/add_schemas_and_data.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/db/datomic.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.nrepl-port" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.nrepl-port" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/datomic01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/datomic01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/datomic01/backend/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/datomic01/backend/database.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/db/utils.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/datomic01/backend/db/user.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/db/user.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/repl-port" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/repl-port" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/stale/leiningen.core.classpath.extract-native-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/stale/leiningen.core.classpath.extract-native-dependencies" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,21 +56,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="cursive.last.file.extension./Users/wravel/project/perso/datomic01/backend/src" value="clj" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/datomic01/backend/db" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/datomic01/backend/db" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/src/datomic01/backend/db" />
       <recent name="$PROJECT_DIR$/backend/src/datomic01/backend" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1608350593672">{:repl-history {:ide [], :local [{:command &quot;(ns datomic01.backend.database\n  (:require [datomic.api :as d]))&quot;, :offset 64, :ns &quot;datomic01.core&quot;} {:command &quot;(ns datomic01.backend.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]))&quot;, :offset 94, :ns &quot;datomic01.backend.database&quot;} {:command &quot;(do\n    (connect)\n    (def db (d/db conn))\n    (def user-1 (d/entity db 17592186045425))\n    )&quot;, :offset 94, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(d/q '[:find ?e\n         :where\n         [?e :user/first-name]] db)&quot;, :offset 67, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.db.user\n  (:require [datomic.api :as d]\n            [datomic01.backend.database :as database]\n            [datomic01.backend.model.user-model :as user-model]))&quot;, :offset 181, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(defn find-list\n  ([]\n   (find-list '[:where [?e :user/id]]))\n  ([where]\n   (database/find-where user-model/fields where))\n  ([where &amp; {:keys [offset limit order asc]}]\n   (database/find-where user-model/fields where\n                        :offset offset\n                        :limit limit\n                        :order order\n                        :asc asc)))&quot;, :offset 365, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defprotocol UserProtocol\n  (find-user-by-id \n    [repo user-id]\n    \&quot;Récupère un utilisateur par user-id\&quot;))&quot;, :offset 108, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defrecord UserRepository\n  [pool]\n  UserProtocol\n  (find-user-by-id\n    [_ user-id]\n    (find-list '[:where [?e :user/id]])))&quot;, :offset 126, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(find-user-by-id nil 1)&quot;, :offset 23, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(find-user-by-id UserRepository 1)&quot;, :offset 34, :ns &quot;datomic01.backend.db.user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1608353543348">{:repl-history {:ide [], :local [{:command &quot;(ns datomic01.backend.database\n  (:require [datomic.api :as d]))&quot;, :offset 64, :ns &quot;datomic01.core&quot;} {:command &quot;(ns datomic01.backend.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]))&quot;, :offset 94, :ns &quot;datomic01.backend.database&quot;} {:command &quot;(do\n    (connect)\n    (def db (d/db conn))\n    (def user-1 (d/entity db 17592186045425))\n    )&quot;, :offset 94, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.db.user\n  (:require [datomic.api :as d]\n            [datomic01.backend.database :as database]\n            [datomic01.backend.model.user-model :as user-model]))&quot;, :offset 181, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(defn find-list\n  ([]\n   (find-list '[:where [?e :user/id]]))\n  ([where]\n   (database/find-where user-model/fields where))\n  ([where &amp; {:keys [offset limit order asc]}]\n   (database/find-where user-model/fields where\n                        :offset offset\n                        :limit limit\n                        :order order\n                        :asc asc)))&quot;, :offset 365, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defprotocol UserProtocol\n  (find-user-by-id \n    [repo user-id]\n    \&quot;Récupère un utilisateur par user-id\&quot;))&quot;, :offset 108, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(find-user-by-id UserRepository 1)&quot;, :offset 34, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defrecord UserRepository\n  [pool]\n  UserProtocol\n  (UserProtocol/find-user-by-id\n    [_ user-id]\n    (find-list '[:where [?e :user/id]])))&quot;, :offset 139, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defrecord UserRepository\n  [pool]\n  UserProtocol\n  (find-user-by-id\n    [_ user-id]\n    (find-list '[:where [?e :user/id]])))&quot;, :offset 126, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(find-user-by-id nil 1)&quot;, :offset 23, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defrecord UserRepository\n  [pool]\n  UserProtocol\n  (find-user-by-id\n    [_ user-id]\n    \&quot;a\&quot;\n    #_(find-list '[:where [?e :user/id]])))&quot;, :offset 136, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(def user-repo (-&gt;UserRepository nil))&quot;, :offset 38, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;uri&quot;, :offset 3, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]\n            [mount.core :as mount]))&quot;, :offset 129, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.db.user\n  (:require [datomic.api :as d]\n            [mount.core :as mount]\n            [datomic01.backend.database :as database]\n            [datomic01.backend.model.user-model :as user-model]))&quot;, :offset 216, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns user\n  (:require [mount.core :as mount]))&quot;, :offset 45, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(mount/start)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn go []\n  (start)\n  :ready)&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(defn go []\n  (mount/start)\n  :ready)&quot;, :offset 37, :ns &quot;user&quot;} {:command &quot;(ns user\n  (:require [mount.core :as mount]\n            [clojure.tools.namespace.repl :as tnr]))&quot;, :offset 96, :ns &quot;user&quot;} {:command &quot;user-repo&quot;, :offset 9, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(reset)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(mount/stop)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(ns datomic01.backend.db.datomic\n  (:require [mount.core :as mount]))&quot;, :offset 69, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.db.datomic\n  (:require [datomic.api :as d]\n            [mount.core :as mount]))&quot;, :offset 101, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;(mount/defstate datomic\n          :start (do\n                   (def uri \&quot;datomic:free://localhost:4334/example\&quot;)\n                   (d/create-database uri)\n                   (def conn (d/connect uri)))\n          :stop (fn [] (prn \&quot;TODO: Stop datomic connection pool\&quot;)))&quot;, :offset 271, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;datomic&quot;, :offset 7, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;(ns datomic01.backend.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]\n            [datomic01.backend.db.datomic :as datomic]))&quot;, :offset 149, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;(mount/defstate datomic-conn\n          :start (do\n                   (def uri \&quot;datomic:free://localhost:4334/example\&quot;)\n                   (d/create-database uri)\n                   (def conn (d/connect uri)))\n          :stop (fn [] (prn \&quot;TODO: Stop datomic connection pool\&quot;)))&quot;, :offset 276, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;(mount/defstate conn\n          :start (do\n                   (def uri \&quot;datomic:free://localhost:4334/example\&quot;)\n                   (d/create-database uri)\n                   (def conn (d/connect uri)))\n          :stop (fn [] (prn \&quot;TODO: Stop datomic connection pool\&quot;)))&quot;, :offset 268, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;(d/db datomic/conn)&quot;, :offset 19, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(mount/defstate conn\n          :start (do\n                   (def uri \&quot;datomic:free://localhost:4334/example\&quot;)\n                   (d/create-database uri)\n                   (d/connect uri))\n          :stop (fn [] (prn \&quot;TODO: Stop datomic connection pool\&quot;)))&quot;, :offset 257, :ns &quot;datomic01.backend.db.datomic&quot;} {:command &quot;datomic/conn&quot;, :offset 12, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(def db (d/db datomic/conn))&quot;, :offset 28, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(do\n    (def db (d/db datomic/conn))\n    (def user-1 (d/entity db 17592186045425)))&quot;, :offset 83, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(d/q '[:find ?e\n         :where\n         [?e :user/first-name]] db)&quot;, :offset 67, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.database\n  (:require [datomic01.backend.db.datomic :as datomic]))&quot;, :offset 87, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.database\n  (:require [datomic.api :as d]\n            [datomic01.backend.db.datomic :as datomic]))&quot;, :offset 119, :ns &quot;datomic01.backend.database&quot;} {:command &quot;(ns datomic01.backend.db.user\n  (:require [datomic.api :as d]\n            [mount.core :as mount]\n            [datomic01.backend.db.datomic :as datomic]\n            [datomic01.backend.model.user-model :as user-model]))&quot;, :offset 217, :ns &quot;datomic01.backend.database&quot;} {:command &quot;(ns datomic01.backend.db.user\n  (:require [datomic.api :as d]\n            [mount.core :as mount]\n            [datomic01.backend.db.utils :as db-utils]\n            [datomic01.backend.model.user-model :as user-model]))&quot;, :offset 216, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(ns datomic01.backend.db.utils\n  (:require [datomic.api :as d]\n            [datomic01.backend.db.datomic :as datomic]\n            [mount.core :as mount]))&quot;, :offset 154, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(defn get-db []\n  (d/db datomic/conn))&quot;, :offset 38, :ns &quot;datomic01.backend.db.utils&quot;} {:command &quot;(go)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(find-user-by-id user-repo 1)&quot;, :offset 29, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(ns add-schemas-and-data)&quot;, :offset 25, :ns &quot;datomic01.backend.db.utils&quot;} {:command &quot;(ns datomic01.backend.core)&quot;, :offset 27, :ns &quot;add-schemas-and-data&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
@@ -165,7 +119,26 @@
       <option name="presentableId" value="Default" />
       <updated>1608347846765</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1608350651364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608350651364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <created>1608350662030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608350662030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608347907841">
@@ -180,5 +153,21 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="491" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1608348733907" />
+    <state x="273" y="114" key="CommitChangelistDialog2" timestamp="1608350661904">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="273" y="114" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1608350661904" />
+    <state x="495" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608351798961">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="495" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1608351798961" />
+    <state x="532" y="291" width="705" height="490" key="find.popup" timestamp="1608352969223">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="532" y="291" width="705" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1608352969223" />
+    <state x="470" y="222" key="new project wizard" timestamp="1608351687972">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="470" y="222" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1608351687972" />
   </component>
 </project>
