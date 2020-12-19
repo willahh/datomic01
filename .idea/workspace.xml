@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c1ef57c-5aeb-480c-bca5-7c4e7109db4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/datomic01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/api/user.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/service.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/deps.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_datomic_datomic_free_0_9_5544.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_datomic_datomic_lucene_core_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_h2database_h2_1_3_171.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_beanutils_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_collections_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__io_netty_netty_all_4_0_39_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_testit_0_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__net_cgrand_macrovich_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_activemq_artemis_commons_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_activemq_artemis_core_client_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_geronimo_specs_geronimo_json_1_0_spec_1_0_alpha_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_johnzon_johnzon_core_0_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_tomcat_tomcat_jdbc_7_0_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_tomcat_tomcat_juli_7_0_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_cli_0_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_janino_commons_compiler_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_codehaus_janino_commons_compiler_jdk_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_fressian_fressian_0_6_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_jcl_over_slf4j_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_jul_to_slf4j_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_log4j_over_slf4j_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_slf4j_slf4j_nop_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/backend/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datomic01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/company.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/company.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/group.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/group.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/keyword.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/keyword.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/media.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/media.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/profile.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/profile.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/user.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/data/user.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/group_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/group_schema.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/keyword_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/keyword_schema.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/media_schema.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user_schema.edn" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/user_schema.edn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/database.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/database.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/model/user_dao.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/db/user.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datomic01/model/user_model.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/datomic01/backend/model/user_model.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/datomic01/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/datomic01/core_test.clj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsLocalSettings">
+    <option name="repoId" value="" />
+    <option name="repoUrl" value="" />
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../refonte" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lrGYaWRPuiDnGp6DxI8t5szH6S" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./Users/wravel/project/perso/datomic01/backend/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/datomic01/backend/db" />
+      <recent name="$PROJECT_DIR$/backend/src/datomic01/backend" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1608350593672">{:repl-history {:ide [], :local [{:command &quot;(ns datomic01.backend.database\n  (:require [datomic.api :as d]))&quot;, :offset 64, :ns &quot;datomic01.core&quot;} {:command &quot;(ns datomic01.backend.core\n  (:require [datomic.api :as d]\n            [clojure.edn :as edn]))&quot;, :offset 94, :ns &quot;datomic01.backend.database&quot;} {:command &quot;(do\n    (connect)\n    (def db (d/db conn))\n    (def user-1 (d/entity db 17592186045425))\n    )&quot;, :offset 94, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(d/q '[:find ?e\n         :where\n         [?e :user/first-name]] db)&quot;, :offset 67, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(ns datomic01.backend.db.user\n  (:require [datomic.api :as d]\n            [datomic01.backend.database :as database]\n            [datomic01.backend.model.user-model :as user-model]))&quot;, :offset 181, :ns &quot;datomic01.backend.core&quot;} {:command &quot;(defn find-list\n  ([]\n   (find-list '[:where [?e :user/id]]))\n  ([where]\n   (database/find-where user-model/fields where))\n  ([where &amp; {:keys [offset limit order asc]}]\n   (database/find-where user-model/fields where\n                        :offset offset\n                        :limit limit\n                        :order order\n                        :asc asc)))&quot;, :offset 365, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defprotocol UserProtocol\n  (find-user-by-id \n    [repo user-id]\n    \&quot;Récupère un utilisateur par user-id\&quot;))&quot;, :offset 108, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(defrecord UserRepository\n  [pool]\n  UserProtocol\n  (find-user-by-id\n    [_ user-id]\n    (find-list '[:where [?e :user/id]])))&quot;, :offset 126, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(find-user-by-id nil 1)&quot;, :offset 23, :ns &quot;datomic01.backend.db.user&quot;} {:command &quot;(find-user-by-id UserRepository 1)&quot;, :offset 34, :ns &quot;datomic01.backend.db.user&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="datomic01" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$/backend" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c1ef57c-5aeb-480c-bca5-7c4e7109db4c" name="Default Changelist" comment="" />
+      <created>1608347846765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608347846765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608347907841">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1608347907841" />
+    <state x="553" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608349579358">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="553" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1608349579358" />
+    <state x="491" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608348733907">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="491" y="468" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1608348733907" />
+  </component>
+</project>
