@@ -7,4 +7,7 @@
                    (def uri "datomic:free://localhost:4334/example")
                    (d/create-database uri)
                    (d/connect uri))
-          :stop (fn [] (prn "TODO: Stop datomic connection pool")))
+          :stop (fn []
+                  (prn "Stop datomic connection pool")
+                  (d/shutdown true)))
+

@@ -12,7 +12,8 @@ https://docs.datomic.com/on-prem/dev-setup.html
 cd datomic-pro-1.0.6222/bin
 ./transactor /Users/user/bin/datomic-pro-1.0.6222/config/samples/dev-transactor-template.properties
 ``
-
+## TODO
+- [ ] Add an infra setup with docker for datomic 
 
 ## License
 

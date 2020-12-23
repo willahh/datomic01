@@ -6,6 +6,10 @@
   (mount/start)
   :ready)
 
+
+(defn stop []
+  (mount/stop))
+
 (defn reset []
   (mount/stop)
   (tnr/refresh :after 'dev/go))
