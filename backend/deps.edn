@@ -25,6 +25,7 @@
 
              nrepl/nrepl                    {:mvn/version "0.6.0"}
 
-             com.datomic/datomic-free       {:mvn/version "0.9.5544"}}
+             com.datomic/datomic-free       {:mvn/version "0.9.5544"}
+             juxt/crux-lmdb                 {:mvn/version "20.09-1.12.1-alpha"}}
  :aliases   {:dev {:extra-paths ["dev"]
-                   :extra-deps {org.clojure/tools.namespace    {:mvn/version "0.2.11"}}}}}
+                   :extra-deps  {org.clojure/tools.namespace {:mvn/version "0.2.11"}}}}}

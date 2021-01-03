@@ -14,7 +14,8 @@ cd datomic-pro-1.0.6222/bin
 ``
 ## TODO
 - [ ] Add an infra setup with docker for datomic 
-
+- [ ] Design system see post https://maecapozzi.com/layers-of-abstraction-in-design-systems/
+- [ ] Frontend React or Clojurescript ?
 ## License
 
 Copyright © 2019 FIXME

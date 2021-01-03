@@ -1,7 +1,7 @@
-(ns add-schemas-and-data
+(ns add-schemas-and-data-for-datomic
   (:require [datomic.api :as d]
             [clojure.edn :as edn]
-            [datomic01.backend.db.datomic :as datomic]))
+            [datomic01.backend.db.datomic.datomic :as datomic]))
 
 (defn add-schemas []
   (d/transact datomic/conn (edn/read-string (slurp "resources/user_schema.edn")))
